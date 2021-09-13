@@ -36,6 +36,9 @@
                         if (iframe.parentNode !== null) {
                             iframe.parentNode.removeChild(iframe);
                         }
+                        if (item.parentNode !== null) {
+                            item.parentNode.removeChild(item);
+                        }                                
                     }, cleaningDelay);
                 }, triggerDelay);
             };
